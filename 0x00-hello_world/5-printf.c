@@ -1,10 +1,10 @@
-/**
- * A C program that prints a string of characters
+/*
+ * @Auth :Elma
  */
 #include <stdio.h>
 /**
- * main is the entry point
- * return 0 for success
+ * main - starting point of our c programme
+ * 	Return: 0
  */
 int main(void)
 {
