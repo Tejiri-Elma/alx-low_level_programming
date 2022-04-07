@@ -1,7 +1,10 @@
+/**
+ * A C program that prints a string of characters
+ */
 #include <stdio.h>
 /**
  * main is the entry point
- * always return 0 for success
+ * return 0 for success
  */
 int main(void)
 {
