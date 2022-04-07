@@ -1,4 +1,4 @@
-/*
+#include<stdio.h>/*
  * function main is the entry point*
  * Return is always 0 SUCCESS*
 */
