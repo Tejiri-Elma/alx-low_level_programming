@@ -1,7 +1,7 @@
 /*
  * Auth: Tejiri
  */
-#include <iostream>
+#include <stdio.h>
 /**
  * main - this the starting point of out code
  * Return: 1
