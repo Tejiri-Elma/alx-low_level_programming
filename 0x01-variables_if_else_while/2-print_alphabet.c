@@ -9,11 +9,12 @@
  */
 int main(void)
 {
-	char i;
+	char alphabet;
 
 	for(i = 'a'; i <= 'z'; i++)
 	{
-		putchar('\n');
+		putchar(i);
 	}
+	putchar('\n');
 	return (0);
 }
