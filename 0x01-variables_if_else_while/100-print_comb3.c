@@ -4,7 +4,7 @@
 #include <stdio.h>
 /**
  * main - this is the entry point of the code
- * return: 0
+ * Return: 0
  */
 int main(void)
 {
