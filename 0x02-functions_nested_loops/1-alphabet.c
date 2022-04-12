@@ -4,7 +4,7 @@
  */
 #include "main.h"
 /**
- * main - this is the entry point of the code
+ * print_alphabet - print alphabet in lowercase
  * Return: 0
  */
 void print_alphabet(void)
