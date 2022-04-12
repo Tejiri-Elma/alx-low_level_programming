@@ -7,20 +7,20 @@
  * print_alphabet_x10 - prints the alphabet 10x
  * Return: 0
  */
-void print_alphabet_x10(void);
+void print_alphabet_x10(void)
 {
 
-	int alphabet;
-	int count;
+	int i;
+	int j;
 
-	count = 0;
-	while (count < 10)
+	j = 0;
+	while (j < 10)
 	{
-		for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+		for (i = 'a'; i <= 'z'; i++)
 		{
-			_putchar(alphabet);
+			_putchar(i);
 		}
-		count++;
+		j++;
 		_putchar('\n');
 	}
 }
