@@ -7,8 +7,9 @@
 /**
  * _abs - checks the absolue value of an integer
  * Return: 0
+ * @n: contains value to be compared
  */
-int _abs(int)
+int _abs(int n)
 {
 	if (n < 0)
 	{
