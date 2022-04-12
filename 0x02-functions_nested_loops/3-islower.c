@@ -6,6 +6,7 @@
 /**
  * _islower - checks for lowercase characters
  * Return: 0
+ * c - an integer variable
  */
 int _islower(int c)
 {
