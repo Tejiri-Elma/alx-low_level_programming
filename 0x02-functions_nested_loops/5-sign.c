@@ -6,7 +6,7 @@
 /**
  * print_sign - prints the sign of a number
  * Return: 0
- * @c: contains value to be compared
+ * @n: contains value to be compared
  */
 int print_sign(int n)
 {
