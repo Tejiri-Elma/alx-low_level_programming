@@ -11,11 +11,11 @@ int main(void)
 		{
 			if ((y % 2 == 0) && (y <= 4000000))
 			{											tSum = tSum + y;
-												 	}
+			}
 			sum = x + y;
 			x = y;
 			y = sum;
-			printf("%ld\n", tSum);
 		}
+		printf("%ld\n", tSum);
 		return (0);
 }
