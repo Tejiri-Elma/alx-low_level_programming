@@ -4,8 +4,7 @@
 #include "main.h"
 /**
  * main - prints the largest of 3 numbers
- * Return: 0
- * largest number
+ * Return: largest number
  * @a: first integer
  * @b: second integer
  * @c: third integer
