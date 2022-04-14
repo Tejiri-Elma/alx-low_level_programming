@@ -2,31 +2,22 @@
 /**
  * print_triangle - prints the shape of a triangle
  * Return: Nothing
- * @size: values of ##
+ * @size: values of #
  */
 void print_triangle(int size)
 {
-	int i, d, z, p;
+	int i, j;
 
-	if (size > 0)
+	for(i = 1; i <= size; i++)
 	{
-		d = size - 1;
-		for (i = 0; i < size ; i++)
+		for(j = i; j < size; j++)
 		{
-			for (z = d; z > 0 ; z--)
-			{
-				_putchar (' ');
-			}
-			for (p = 0; p <= i; p++)
-			{
-				_putchar (35);
-			}
-			d--;
-			_putchar ('\n');
+			printf(" ");
 		}
-	}
-	else
-	{
-		_putchar ('\n');
+		for(j = 1; j <= i; j++)
+		{
+			printf("*");
+		}
+		printf("\n");
 	}
 }
