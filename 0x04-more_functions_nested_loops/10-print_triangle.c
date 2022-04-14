@@ -16,7 +16,7 @@ void print_triangle(int size)
 		}
 		for(j = 1; j <= i; j++)
 		{
-			printf("*");
+			printf(35);
 		}
 		printf("\n");
 	}
