@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * mul - multiplies 2 digits
  * Return: 0
@@ -10,8 +11,4 @@ int mul(int a, int b)
 
 	c = a * b;
 	return (c);
-}
-int main(void)
-{
-	return (0);
 }
