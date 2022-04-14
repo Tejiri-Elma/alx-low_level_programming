@@ -4,7 +4,7 @@ include "main.h"
  * Retrun: Nothing
  * @n: draws the line
  */
-void print_line(int n);
+void print_line(int n)
 {
 	if (n > 0)
 	{
