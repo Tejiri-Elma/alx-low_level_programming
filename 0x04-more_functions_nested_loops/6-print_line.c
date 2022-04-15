@@ -1,11 +1,14 @@
 #include "main.h"
 /**
- * print_line - draws a straight line in the terminal
- * @n: number of times the character _ should be printed
  * _putchar - test
  * @c: putchar
+ * Return: 0
  */
 int _putchar(char c);
+/**
+ * print_line - draws a straight line in the terminal
+ * @n: number of times the character _ should be printed
+ */
 void print_line(int n)
 {
 	if (n <= 0)
