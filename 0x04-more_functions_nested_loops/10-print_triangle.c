@@ -1,10 +1,14 @@
 #include "main.h"
 /**
- * print_triangle - prints the shape of a triangle
- * Return: Nothing
- * @size: values of #
+ * _putchar - test function
+ * @c: _putchar
+ * Return: 0
  */
 int _putchar(char c);
+/**
+ * print_triangle - prints the pattern of a triangle
+ * @size: size of the triangle
+ */
 void print_triangle(int size)
 {
 	int i, j, k;
