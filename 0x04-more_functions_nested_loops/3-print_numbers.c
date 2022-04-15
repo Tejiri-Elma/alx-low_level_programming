@@ -4,6 +4,7 @@
  * Return: 0
  * @c: putchar variable
  */
+int _putchar(char c);
 void print_numbers(void)
 {
 	int x;
