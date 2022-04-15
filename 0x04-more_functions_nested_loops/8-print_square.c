@@ -1,9 +1,14 @@
 #include "main.h"
 /**
- * print_square - print the squares of #
- * @size: size of the square
+ * _putchar - test
+ * Return: 0
+ * @c: putchar
  */
 int _putchar(char c);
+/**
+ * print_square - print square pattern of #
+ * @size: size of the square pattern
+ */
 void print_square(int size)
 {
 	int a, b;
