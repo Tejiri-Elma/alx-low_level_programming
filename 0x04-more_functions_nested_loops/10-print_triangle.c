@@ -4,6 +4,7 @@
  * Return: Nothing
  * @size: values of #
  */
+int _putchar(char c);
 void print_triangle(int size)
 {
 	int i, j, k;
@@ -27,5 +28,4 @@ void print_triangle(int size)
 	{
 		_putchar('\n');
 	}
-	return (0);
 }
