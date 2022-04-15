@@ -3,7 +3,7 @@
  */
 #include "main.h"
 /**
- * main - prints the largest of 3 numbers
+ * largest_number - prints the largest of 3 numbers
  * Return: largest number
  * @a: first integer
  * @b: second integer
