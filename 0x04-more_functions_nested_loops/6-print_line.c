@@ -2,7 +2,10 @@
 /**
  * print_line - draws a straight line in the terminal
  * @n: number of times the character _ should be printed
+ * _putchar - test
+ * @c: putchar
  */
+int _putchar(char c);
 void print_line(int n)
 {
 	if (n <= 0)
