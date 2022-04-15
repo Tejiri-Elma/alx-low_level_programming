@@ -14,6 +14,7 @@ void more_numbers(void)
 	int c, i;
 
 	i = 0;
+
 	while (i < 10)
 	{
 		for (c = 0; c <= 14; c++)
