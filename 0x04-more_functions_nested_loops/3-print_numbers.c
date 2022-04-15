@@ -4,14 +4,16 @@
  * Return: 0
  */
 void print_numbers(void)
-{
-	int c;
 
-	c = 0;
-	while (c < 10)
+{
+
+	int i;
+
+	i = 0;
+	while (i < 10)
 	{
-		_putchar(c +'0');
-		c++;
+		_putchar (i + '0');
+		i++;
 	}
-	_putchar('\n');
+	_putchar ('\n');
 }
