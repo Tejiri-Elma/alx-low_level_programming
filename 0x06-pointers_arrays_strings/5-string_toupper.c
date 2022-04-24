@@ -1,7 +1,8 @@
 #include "main.h"
 /**
  * string_toupper - changes all lowercase letters in a string to uppercase
- * Return: 0
+ * @s: string
+ * Return: string
  */
 char *string_toupper(char *s)
 {
@@ -11,7 +12,7 @@ char *string_toupper(char *s)
 	{
 		if ((s[i] >= 'a') && (s[i] <= 'z'))
 		{
-			s[i] = s[i] -32;
+			s[i] = s[i] - 32;
 		}
 	}
 	return (s);
