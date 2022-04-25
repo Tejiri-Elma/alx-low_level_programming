@@ -6,31 +6,36 @@
  */
 char *cap_string(char *s)
 {
-	int i, j = 0;
+	int i = 1, j, check;
+	char a[] = {',', ';', '.', '!', '?', '"',
+		'(', ')', '{', '}', '\n', '\t', ' '};
 
-	char separators[] = {' ', '\t', '\n', ',', ';',
-		'.', '!', '?', '"', '(', ')', '{', '}'};
-
-	i = 0;
-
-	if ((s[i] >= 'a') && (s[i] <= 'z'))
+	if (s[0] > 96 && s[0] < 123)
 	{
-		s[i] = s[i] - 32;
+		s[0] -= 32;
 	}
 
 	while (s[i] != '\0')
 	{
-		for (i = 0; i < j; i++)
+		if (s[i] > 96 && s[i] < 123)
 		{
-			if (s[i] == separators[j])
+			j = 0;
+			check = 0;
+
+			while (check == 0 && j < 13)
 			{
-				if ((s[i + 1] >= 'a') && (s[i + 1] <= 'z'))
+				if (s[i - 1] == a[j])
 				{
-					s[i + 1] = s[i + 1] - 32;
-					break;
+					check = 1;
 				}
+				j++;
+			}
+			if (check == 1)
+			{
+				s[i] -= 32;
 			}
 		}
+		i++;
 	}
 	return (s);
 }
