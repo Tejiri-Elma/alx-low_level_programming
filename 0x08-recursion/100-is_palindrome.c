@@ -23,7 +23,7 @@ int _strlength_recursion(char *s, int length)
  * @length: length of a string
  * Return: 1 on success and 0 on failure
  */
-int _palindrome( char *a, int length)
+int _palindrome(char *a, int length)
 {
 	if (*a != *(a + length))
 	{
