@@ -48,20 +48,14 @@ char **strtow(char *str)
 	int l, l2, wc, i, j, fr, k;
 
 	if (str == NULL || *str == 0)
-	{
 		return (0);
-	}
 	fr = 0;
 	wc = _wcount(str);
 	if (wc == 0)
-	{
 		return (0);
-	}
 	s = malloc((wc + 1) * sizeof(char *));
 	if (s == 0)
-	{
 		return (0);
-	}
 	ts = _trspace(str);
 	for (i = 0; i < wc; i++)
 	{
@@ -72,10 +66,8 @@ char **strtow(char *str)
 		}
 		s[i] = malloc((l + 1) * sizeof(char));
 		if (s[i] == 0)
-		{
 			fr = 1;
 			break;
-		}
 		for (j = 0, l2 = 0; l2 < l; l2++, j++)
 		{
 			s[i][j] = *(ts + l2);
@@ -85,12 +77,10 @@ char **strtow(char *str)
 	}
 	s[i] = NULL;
 	if (fr == 1)
-	{
 		for (k = 0; k <= i; k++)
 		{
 			free(s[k]);
 		}
 		free(s);
-	}
 	return (s);
 }
