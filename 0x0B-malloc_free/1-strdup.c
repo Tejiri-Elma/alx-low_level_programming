@@ -1,0 +1,36 @@
+#include "main.h"
+#include <stddef.h>
+#include <stdlib.h>
+/**
+ * _strdup - function returns a pointer to a new string
+ *  which is a duplicate of the string str (dest)
+ *  @str: string
+ *  Return: NULL or dest
+ */
+char *_strdup(char *str)
+{
+	int i;
+	char *dest;
+
+	if (str == 0)
+	{
+		return (NULL);
+	}
+
+	for (i = 0; str[i] != '\0'; i++)
+	{
+		continue;
+	}
+
+	dest = malloc(sizeof(char) * i);
+
+	if (dest == 0)
+	{
+		return (NULL);
+	}
+	for (i = 0; str[i] != '\0'; i++)
+	{
+		dest[i] = str[i];
+	}
+	return (dest);
+}
