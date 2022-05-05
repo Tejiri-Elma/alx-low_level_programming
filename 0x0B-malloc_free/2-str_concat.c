@@ -35,15 +35,18 @@ char *str_concat(char *s1, char *s2)
 	{
 		return (NULL);
 	}
-	for (i = 0; s1[i] != '\0'; i++)
+
+	while (k < i)
 	{
-		dest[k] = s1[i];
+		dest[k] = s1[k];
 		k++;
 	}
-	for (j = 0; s2[j] != '\0'; j++)
+
+	while (k < i + j)
 	{
-		dest[k] = s2[j];
+		dest[k] = s2[k - i];
 		k++;
 	}
+	dest[k] = '\0';
 	return (dest);
 }
