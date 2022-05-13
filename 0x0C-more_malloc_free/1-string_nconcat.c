@@ -5,6 +5,7 @@
  * @s1: string 1
  * @s2: string 2
  * @n: number of bytes
+ * Return: NULL or string
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
@@ -33,7 +34,6 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	{
 		n = size2;
 	}
-	
 	s = malloc(sizeof(char) * (size1 + n + 1));
 
 	if (s == 0)
