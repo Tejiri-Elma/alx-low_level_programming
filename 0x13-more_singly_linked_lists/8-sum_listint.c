@@ -6,13 +6,13 @@
  */
 int sum_listint(listint_t *head)
 {
-	int i;
+	int i = 0;
 
 	if (head == NULL)
 		return (0);
-	for (i = 0; head != NULL; i++)
+	while (head != NULL)
 	{
-		i = i + (head->n);
+		i += head->n;
 		head = head->next;
 	}
 	return (i);
